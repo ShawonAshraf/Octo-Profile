@@ -16,6 +16,13 @@
 		03633D042342A9D100370A1C /* GitHubUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03633D032342A9D100370A1C /* GitHubUser.swift */; };
 		03633D082342AA0500370A1C /* UserImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03633D062342AA0500370A1C /* UserImageViewModel.swift */; };
 		03633D092342AA0500370A1C /* GitHubUserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03633D072342AA0500370A1C /* GitHubUserViewModel.swift */; };
+		03633D132342AA3D00370A1C /* UserCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03633D0B2342AA3D00370A1C /* UserCardView.swift */; };
+		03633D142342AA3D00370A1C /* ButtonLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03633D0C2342AA3D00370A1C /* ButtonLabel.swift */; };
+		03633D152342AA3D00370A1C /* UserDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03633D0D2342AA3D00370A1C /* UserDetailView.swift */; };
+		03633D172342AA3D00370A1C /* UserImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03633D0F2342AA3D00370A1C /* UserImageView.swift */; };
+		03633D182342AA3D00370A1C /* UserStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03633D102342AA3D00370A1C /* UserStatsView.swift */; };
+		03633D192342AA3D00370A1C /* SearchButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03633D112342AA3D00370A1C /* SearchButton.swift */; };
+		03633D1A2342AA3D00370A1C /* StartPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03633D122342AA3D00370A1C /* StartPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +37,13 @@
 		03633D032342A9D100370A1C /* GitHubUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitHubUser.swift; sourceTree = "<group>"; };
 		03633D062342AA0500370A1C /* UserImageViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserImageViewModel.swift; sourceTree = "<group>"; };
 		03633D072342AA0500370A1C /* GitHubUserViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitHubUserViewModel.swift; sourceTree = "<group>"; };
+		03633D0B2342AA3D00370A1C /* UserCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCardView.swift; sourceTree = "<group>"; };
+		03633D0C2342AA3D00370A1C /* ButtonLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonLabel.swift; sourceTree = "<group>"; };
+		03633D0D2342AA3D00370A1C /* UserDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDetailView.swift; sourceTree = "<group>"; };
+		03633D0F2342AA3D00370A1C /* UserImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserImageView.swift; sourceTree = "<group>"; };
+		03633D102342AA3D00370A1C /* UserStatsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserStatsView.swift; sourceTree = "<group>"; };
+		03633D112342AA3D00370A1C /* SearchButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchButton.swift; sourceTree = "<group>"; };
+		03633D122342AA3D00370A1C /* StartPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +76,7 @@
 		03633CED2342A8C900370A1C /* Octo-Profile */ = {
 			isa = PBXGroup;
 			children = (
+				03633D0A2342AA3D00370A1C /* Views */,
 				03633D052342AA0500370A1C /* ViewModels */,
 				03633D022342A9D100370A1C /* Models */,
 				03633CEE2342A8C900370A1C /* AppDelegate.swift */,
@@ -98,6 +113,20 @@
 				03633D072342AA0500370A1C /* GitHubUserViewModel.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		03633D0A2342AA3D00370A1C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				03633D0B2342AA3D00370A1C /* UserCardView.swift */,
+				03633D0C2342AA3D00370A1C /* ButtonLabel.swift */,
+				03633D0D2342AA3D00370A1C /* UserDetailView.swift */,
+				03633D0F2342AA3D00370A1C /* UserImageView.swift */,
+				03633D102342AA3D00370A1C /* UserStatsView.swift */,
+				03633D112342AA3D00370A1C /* SearchButton.swift */,
+				03633D122342AA3D00370A1C /* StartPage.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,12 +200,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03633D142342AA3D00370A1C /* ButtonLabel.swift in Sources */,
 				03633D092342AA0500370A1C /* GitHubUserViewModel.swift in Sources */,
 				03633CEF2342A8C900370A1C /* AppDelegate.swift in Sources */,
 				03633D042342A9D100370A1C /* GitHubUser.swift in Sources */,
+				03633D152342AA3D00370A1C /* UserDetailView.swift in Sources */,
 				03633D082342AA0500370A1C /* UserImageViewModel.swift in Sources */,
 				03633CF12342A8C900370A1C /* SceneDelegate.swift in Sources */,
+				03633D172342AA3D00370A1C /* UserImageView.swift in Sources */,
+				03633D1A2342AA3D00370A1C /* StartPage.swift in Sources */,
 				03633CF32342A8C900370A1C /* ContentView.swift in Sources */,
+				03633D192342AA3D00370A1C /* SearchButton.swift in Sources */,
+				03633D132342AA3D00370A1C /* UserCardView.swift in Sources */,
+				03633D182342AA3D00370A1C /* UserStatsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,9 +8,12 @@
 
 import SwiftUI
 
+let apiUrl = "https://api.github.com/users/"
+
 struct ContentView: View {
+    
     var body: some View {
-        Text("Hello World")
+        StartPage()
     }
 }
 
