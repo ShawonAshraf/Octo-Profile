@@ -14,6 +14,8 @@
 		03633CF82342A8CB00370A1C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03633CF72342A8CB00370A1C /* Preview Assets.xcassets */; };
 		03633CFB2342A8CB00370A1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03633CF92342A8CB00370A1C /* LaunchScreen.storyboard */; };
 		03633D042342A9D100370A1C /* GitHubUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03633D032342A9D100370A1C /* GitHubUser.swift */; };
+		03633D082342AA0500370A1C /* UserImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03633D062342AA0500370A1C /* UserImageViewModel.swift */; };
+		03633D092342AA0500370A1C /* GitHubUserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03633D072342AA0500370A1C /* GitHubUserViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		03633CFA2342A8CB00370A1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		03633CFC2342A8CB00370A1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03633D032342A9D100370A1C /* GitHubUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitHubUser.swift; sourceTree = "<group>"; };
+		03633D062342AA0500370A1C /* UserImageViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserImageViewModel.swift; sourceTree = "<group>"; };
+		03633D072342AA0500370A1C /* GitHubUserViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitHubUserViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 		03633CED2342A8C900370A1C /* Octo-Profile */ = {
 			isa = PBXGroup;
 			children = (
+				03633D052342AA0500370A1C /* ViewModels */,
 				03633D022342A9D100370A1C /* Models */,
 				03633CEE2342A8C900370A1C /* AppDelegate.swift */,
 				03633CF02342A8C900370A1C /* SceneDelegate.swift */,
@@ -84,6 +89,15 @@
 				03633D032342A9D100370A1C /* GitHubUser.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		03633D052342AA0500370A1C /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				03633D062342AA0500370A1C /* UserImageViewModel.swift */,
+				03633D072342AA0500370A1C /* GitHubUserViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,8 +171,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03633D092342AA0500370A1C /* GitHubUserViewModel.swift in Sources */,
 				03633CEF2342A8C900370A1C /* AppDelegate.swift in Sources */,
 				03633D042342A9D100370A1C /* GitHubUser.swift in Sources */,
+				03633D082342AA0500370A1C /* UserImageViewModel.swift in Sources */,
 				03633CF12342A8C900370A1C /* SceneDelegate.swift in Sources */,
 				03633CF32342A8C900370A1C /* ContentView.swift in Sources */,
 			);
